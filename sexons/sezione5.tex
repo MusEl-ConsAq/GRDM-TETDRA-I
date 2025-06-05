@@ -8,7 +8,7 @@ Il progetto prevede due componenti fondamentali che devono procedere in parallel
 
 \subsection{Le sfide del pattern matching musicale}
 
-Il pattern matching tra registrazioni audio e partiture presenta sfide uniche nel caso di Scelsi. Come documentato nel catalogo Jaecker, solo 57 nastri su 273 analizzati contengono materiale identificabile con certezza, lasciando circa due terzi del materiale come "territorio inesplorato"\cite[p. 47]{Bernardini2020Quanti}. Questa difficoltà di identificazione "by ear" anche da parte di esperti come Jaecker, uno dei massimi conoscitori dell'opera di Scelsi, evidenzia la necessità di approcci computazionali.
+Il pattern matching tra registrazioni audio e partiture presenta sfide uniche nel caso di Scelsi. Come documentato nel catalogo Jaecker, solo 57 nastri su 273 analizzati contengono materiale identificabile con certezza, lasciando circa due terzi del materiale come "territorio inesplorato"\cite[p. 47]{bernardini_pellegrini_scelsi_2016}. Questa difficoltà di identificazione "by ear" anche da parte di esperti come Jaecker, uno dei massimi conoscitori dell'opera di Scelsi, evidenzia la necessità di approcci computazionali.
 
 Le sfide specifiche derivano innanzitutto dalla natura improvvisativa del materiale. Le registrazioni non sono esecuzioni di partiture esistenti ma improvvisazioni che potrebbero corrispondere solo parzialmente alle opere finite. A questo si aggiunge la mediazione dei trascrittori, il cui intervento introduceva inevitabilmente un livello di trasformazione e interpretazione nel passaggio dal nastro alla partitura. 
 
@@ -18,7 +18,7 @@ Inoltre, la concezione compositiva a mosaico emersa dall'analisi delle annotazio
 
 Durante le discussioni in laboratorio, Bernardini ha delineato l'approccio metodologico previsto per il pattern matching. Una volta disponibili sia i nastri digitalizzati che le partiture in formato simbolico, sarà possibile implementare algoritmi di ricerca che confrontino sistematicamente il materiale audio con le rappresentazioni simboliche delle opere.
 
-Gli articoli scientifici di Bernardini e Pellegrini suggeriscono lo sviluppo di \citazionebreve{a software tracking application which might be able to compare moderately large corpuses of audio material along with scores in symbolic format to propose evidence of similarities to scholars and musicologists}{\cite[p. 174]{Bernardini2007recoveringgia}}. Questo sistema dovrebbe essere in grado di:
+Gli articoli scientifici di Bernardini e Pellegrini suggeriscono lo sviluppo di \citazionebreve{a software tracking application which might be able to compare moderately large corpuses of audio material along with scores in symbolic format to propose evidence of similarities to scholars and musicologists}{\cite[p. 174]{pro:scelsitapes2007}}. Questo sistema dovrebbe essere in grado di:
 
 \begin{enumerate}
  \item Analizzare caratteristiche audio estratte dai nastri digitalizzati
@@ -29,7 +29,7 @@ Gli articoli scientifici di Bernardini e Pellegrini suggeriscono lo sviluppo di 
 
 \subsection{Il ruolo delle tecniche di Music Information Retrieval}
 
-Come indicato nello studio quantitativo di Bernardini e Pellegrini, \citazionebreve{music information retrieval techniques should allow us to discover more relationships hiding behind the wall of the sheer amount of material becoming available}{\cite[p. 50]{Bernardini2020Quanti}}. L'applicazione di queste tecniche al corpus di Scelsi richiede adattamenti specifici:
+Come indicato nello studio quantitativo di Bernardini e Pellegrini, \citazionebreve{music information retrieval techniques should allow us to discover more relationships hiding behind the wall of the sheer amount of material becoming available}{\cite[p. 50]{bernardini_pellegrini_scelsi_2016}}. L'applicazione di queste tecniche al corpus di Scelsi richiede adattamenti specifici:
 \begin{enumerate}
 
  \item Gestione della qualità variabile: le registrazioni domestiche con alto livello di rumore richiedono algoritmi robusti che possano operare anche in condizioni non ottimali.
