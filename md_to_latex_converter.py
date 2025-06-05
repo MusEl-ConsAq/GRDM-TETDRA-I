@@ -48,7 +48,7 @@ KNOWN_PEOPLE = {
     },
     "Nicola Bernardini": {
         "variants": ["Prof. Nicola Bernardini", "Nicola Bernardini", "Bernardini"],
-        "birth": "9999", "death": "9999" # Date non specificate nel testo
+        "birth": "1956", "death": " " # Date non specificate nel testo
     },
     "Barbara Boido": {
         "variants": ["Barbara Boido"], # Aggiungere "Boido" se usato da solo e non ambiguo

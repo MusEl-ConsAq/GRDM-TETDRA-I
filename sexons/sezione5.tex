@@ -1,0 +1,54 @@
+\section{Verso il Pattern Matching}
+
+\subsection{L'obiettivo finale del progetto}
+
+L'obiettivo ultimo del progetto di digitalizzazione dei nastri di Scelsi, come emerso chiaramente durante le sessioni di laboratorio, va ben oltre la mera preservazione del patrimonio sonoro. Durante le nostre conversazioni, Bernardini ha spiegato come l'idea iniziale fosse quella di sviluppare una ricerca sistematica per collegare i frammenti registrati con le opere pubblicate. Questo ambizioso obiettivo richiede lo sviluppo di metodologie computazionali avanzate per stabilire corrispondenze tra le improvvisazioni e le partiture finite.
+
+Il progetto prevede due componenti fondamentali che devono procedere in parallelo: da un lato il trasferimento digitale di tutti i nastri, dall'altro la conversione delle partiture di Scelsi in formato digitale simbolico, leggibile dalle macchine. Come sottolineato durante il laboratorio, attualmente la Fondazione dispone solo di scansioni PDF delle partiture, rendendo necessaria una digitalizzazione simbolica completa del corpus delle opere pubblicate.
+
+\subsection{Le sfide del pattern matching musicale}
+
+Il pattern matching tra registrazioni audio e partiture presenta sfide uniche nel caso di Scelsi. Come documentato nel catalogo Jaecker, solo 57 nastri su 273 analizzati contengono materiale identificabile con certezza, lasciando circa due terzi del materiale come "territorio inesplorato"\cite[p. 47]{Bernardini2020Quanti}. Questa difficoltà di identificazione "by ear" anche da parte di esperti come Jaecker, uno dei massimi conoscitori dell'opera di Scelsi, evidenzia la necessità di approcci computazionali.
+
+Le sfide specifiche derivano innanzitutto dalla natura improvvisativa del materiale. Le registrazioni non sono esecuzioni di partiture esistenti ma improvvisazioni che potrebbero corrispondere solo parzialmente alle opere finite. A questo si aggiunge la mediazione dei trascrittori, il cui intervento introduceva inevitabilmente un livello di trasformazione e interpretazione nel passaggio dal nastro alla partitura. 
+
+Inoltre, la concezione compositiva a mosaico emersa dall'analisi delle annotazioni sulle scatole complica ulteriormente il quadro. I brani venivano spesso assemblati da frammenti registrati in momenti diversi, rendendo necessario non solo identificare corrispondenze puntuali, ma ricostruire l'intero processo di assemblaggio compositivo.
+
+\subsection{Approcci metodologici proposti}
+
+Durante le discussioni in laboratorio, Bernardini ha delineato l'approccio metodologico previsto per il pattern matching. Una volta disponibili sia i nastri digitalizzati che le partiture in formato simbolico, sarà possibile implementare algoritmi di ricerca che confrontino sistematicamente il materiale audio con le rappresentazioni simboliche delle opere.
+
+Gli articoli scientifici di Bernardini e Pellegrini suggeriscono lo sviluppo di \citazionebreve{a software tracking application which might be able to compare moderately large corpuses of audio material along with scores in symbolic format to propose evidence of similarities to scholars and musicologists}{\cite[p. 174]{Bernardini2007recoveringgia}}. Questo sistema dovrebbe essere in grado di:
+
+\begin{enumerate}
+ \item Analizzare caratteristiche audio estratte dai nastri digitalizzati
+ \item Confrontarle con rappresentazioni simboliche delle partiture
+ \item Proporre corrispondenze probabilistiche tra frammenti e sezioni di opere
+ \item Fornire strumenti di validazione per i musicologi
+\end{enumerate}
+
+\subsection{Il ruolo delle tecniche di Music Information Retrieval}
+
+Come indicato nello studio quantitativo di Bernardini e Pellegrini, \citazionebreve{music information retrieval techniques should allow us to discover more relationships hiding behind the wall of the sheer amount of material becoming available}{\cite[p. 50]{Bernardini2020Quanti}}. L'applicazione di queste tecniche al corpus di Scelsi richiede adattamenti specifici:
+\begin{enumerate}
+
+ \item Gestione della qualità variabile: le registrazioni domestiche con alto livello di rumore richiedono algoritmi robusti che possano operare anche in condizioni non ottimali.
+
+ \item Velocità multiple: i nastri registrati a velocità diverse necessitano di tecniche che possano identificare corrispondenze indipendentemente dalla velocità di riproduzione.
+
+ \item Timbri non convenzionali: l'uso delle ondioline introduce timbri sintetici che non hanno equivalenti diretti nelle partiture orchestrali, richiedendo approcci di matching basati su strutture melodiche e armoniche piuttosto che timbriche.
+\end{enumerate}
+
+\subsection{Implicazioni musicologiche}
+
+Il successo del pattern matching automatico avrebbe profonde implicazioni per la comprensione del processo compositivo di Scelsi. Permetterebbe innanzitutto di mappare il percorso creativo, tracciando come i frammenti improvvisati si trasformano in opere complete attraverso il processo di trascrizione. Questo consentirebbe anche di valutare più precisamente il ruolo creativo dei trascrittori Tosatti, Cafaro e Filippini, quantificando il loro contributo nel passaggio dall'improvvisazione alla partitura finale.
+
+Un altro aspetto fondamentale riguarda l'identificazione di materiale inedito. I frammenti che non trovassero corrispondenze con opere note potrebbero rappresentare composizioni incompiute, abbandonate o semplicemente esercizi compositivi mai destinati alla pubblicazione. Infine, l'analisi cronologica dei materiali, supportata dalle tecniche di datazione tramite rumori ambientali sviluppate durante il progetto, potrebbe rivelare pattern evolutivi nel linguaggio compositivo di Scelsi, permettendo di tracciare lo sviluppo delle sue tecniche improvvisative nel corso dei decenni.
+
+\subsection{Stato attuale e prospettive future}
+
+Al momento della stesura di questo articolo, il progetto di pattern matching è ancora in fase di sviluppo. La digitalizzazione dei nastri procede parallelamente alla preparazione delle partiture in formato simbolico. Come osservato da Bernardini e Pellegrini, "this paper will work as an 'appetizer' to stimulate further quantity-related research in the archive".
+
+Le prospettive future includono non solo lo sviluppo degli strumenti computazionali, ma anche la creazione di un'infrastruttura che permetta ai ricercatori di accedere e analizzare i risultati. Il sistema dovrà bilanciare l'automazione con la necessità di validazione umana, riconoscendo che l'interpretazione finale del significato musicologico delle corrispondenze trovate rimarrà sempre compito degli studiosi.
+
+Il progetto di pattern matching rappresenta quindi non solo una sfida tecnica, ma un'opportunità unica per penetrare nel laboratorio creativo di uno dei compositori più enigmatici del Novecento, utilizzando la tecnologia contemporanea per decifrare un processo compositivo che ha deliberatamente sfidato le convenzioni della sua epoca.
